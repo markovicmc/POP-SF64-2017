@@ -1,0 +1,21 @@
+﻿<Window x:Class="POP_SF64_2017_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POP_SF64_2017_GUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="23*"/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+        <ListBox Name="listBoxNamestaj" Grid.Row="0" FontSize="15" SelectionChanged="listBoxNamestaj_SelectionChanged">
+        </ListBox>
+        <Button Grid.Row="1" Content="Dodaj" Width="40" Height="30" FontSize="15"/>
+        <Button Grid.Row="1" Content="Obrisi" Width="40" Height="30" FontSize="15"/>
+        <Button Grid.Row="1" Content="Izmeni" Width="40" Height="30" FontSize="15"/>
+        <Button Grid.Row="1" Content="Izlaz" Width="40" Height="30"/>
+    </Grid>
+</Window>

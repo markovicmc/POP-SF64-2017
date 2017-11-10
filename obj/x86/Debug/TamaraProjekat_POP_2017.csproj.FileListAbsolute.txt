@@ -1,0 +1,2 @@
+D:\Workspace_C#\obj\x86\Debug\TamaraProjekat_POP_2017.csprojResolveAssemblyReference.cache
+D:\Workspace_C#\obj\x86\Debug\TamaraProjekat_POP_2017.csproj.CoreCompileInputs.cache
